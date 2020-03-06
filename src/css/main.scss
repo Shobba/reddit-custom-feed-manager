@@ -1,7 +1,13 @@
+@import 'general/colors';
 @import 'general/font-awesome';
 @import 'general/body';
-@import 'general/error';
-@import 'general/loading';
+@import 'general/button';
+@import 'general/a';
+
+@import 'global/error';
+@import 'global/login';
+@import 'global/loading';
+@import 'global/header';
 
 @import 'home/home';
 @import 'home/custom-feed';

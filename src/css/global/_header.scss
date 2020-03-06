@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    background: #1E1E1D;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    color: #F3F1ED;
+
+    &__left {
+        padding-left: 50px;
+    }
+
+    &__right {
+        padding-right: 50px;
+    }
+
+    &-title {
+        &__short {
+            font-size: 18px;
+        }
+
+        &__long {
+            font-size: 13px;
+            opacity: 0.5;
+        }
+    }
+
+    &__name {
+        font-size: 15px;
+    }
+
+    &__icon {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}

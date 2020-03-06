@@ -1,0 +1,12 @@
+a {
+    color: $primary--dark;
+    font-weight: bold;
+
+    &:hover {
+        color: $primary--light;
+    }
+
+    &:active {
+        color: $primary;
+    }
+}
