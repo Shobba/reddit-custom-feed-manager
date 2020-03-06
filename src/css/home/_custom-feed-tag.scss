@@ -1,0 +1,31 @@
+.custom-feed-tag {
+    display: inline-block;
+    padding: 4px 6px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background: #19C5C6;
+    border-radius: 6px;
+    color: #F3F1ED;
+    font-weight: bold;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+    &--clicked {
+        background: #c6291c;
+
+        transition: all 0.1s linear;
+
+        &:after {
+            //noinspection CssNoGenericFontName
+            font-family: 'Font Awesome 5 Free';
+            content: '\f2ed';
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0.5;
+            margin-left: 5px;
+        }
+    }
+}
