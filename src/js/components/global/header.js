@@ -4,7 +4,7 @@ const Header = (props) => (
     <div className="header">
         <div className="header__left">
             <div className="header-title__short">RCFM</div>
-            <div className="header-title__long">Reddit Custom Feed Manager</div>
+            <div className="header-title__long">Reddit Custom Feeds Manager</div>
         </div>
         {props.userInfo &&
             <div className="header__right">
